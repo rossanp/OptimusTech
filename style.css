@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Estilização do Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.12rem 5rem;
+}
+
+/* Área do logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo_image {
+    width: 1.5rem;
+}
+
+.logo_text {
+    color: #3A404E;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+/* Área da navegação */
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navigation a {
+    position: relative;
+    color: #667085;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #667085;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+.navigation a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* Por que o UX/UI pediu isso? Faço a mínima ideia. Mas está ai. */
+.hidden_logo {
+    width: 8.875rem;
+}
+
+/* Área de login e cadastro */
+.login {
+    display: flex;
+}
+
+.login a {
+    position: relative;
+    padding: 0.62rem 1.12rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #667085;
+}
+
+.login_cadastro {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    background-color: #8E2424;
+    color: #fff;
+    padding: 0.62rem 1.12rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
