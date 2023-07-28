@@ -34,13 +34,36 @@
 /* Seção Métricas */
 .metricas {
     display: flex;
+    padding-bottom: 0px;
+    margin-bottom: 6rem;
     flex-direction: column;
     align-items: center;
+    gap: 4rem;
+    align-self: stretch;
+}
+
+.metricas_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    width: 80rem;
+    padding: 0rem 2rem;
+}
+
+.metricas_container_content {
+    display: flex;
+    align-items: flex-start;
     gap: 2rem;
     align-self: stretch;
-    padding-bottom: 0;
-    width: 80rem;
-    margin: 0 auto;
+}
+
+.metrica_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    flex: 1 0 0;
 }
 
 .metrica_item_numero {
@@ -60,7 +83,7 @@
 }
 
 .metrica_item_texto {
-    color: var(--cinza);
+    color: var(--cinza-medio);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
