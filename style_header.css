@@ -3,6 +3,7 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 1.12rem 5rem;
+    gap: 1.5rem;
 }
 
 /* Área do logo */
@@ -88,4 +89,29 @@ nav {
     padding: 0.62rem 1.12rem;
     border-radius: 0.5rem;
     border-style: none;
+}
+
+@media screen and (max-width: 1024px){
+    .logo_text {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .navigation a {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+
+    .login a {
+        padding: 0.62rem 1.12rem;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    
+    .login_cadastro {
+        font-size: 0.6rem;
+        font-weight: 500;
+        line-height: 1rem;
+        padding: 0.62rem 1.12rem;
+    }
 }
