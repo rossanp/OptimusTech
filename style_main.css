@@ -224,7 +224,6 @@ h4 {
 .vagas_vagasAbertas_container_content p {
     color: var(--azul);
 
-    font-family: Inter;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
@@ -241,7 +240,6 @@ h4 {
 .detalhes span {
     color: var(--cinza-medio);
 
-    font-family: Inter;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -359,4 +357,134 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
+}
+
+/* Section Formulário */
+.form {
+    display: flex;
+    padding: 6rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+
+    background: var(#F9FAFB);
+}
+
+.form_container {
+    display: flex;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-shrink: 0;
+}
+
+.form_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: stretch;
+}
+
+.form_container_content_titulo-sub {
+    display: flex;
+    width: 48rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.form_container_content_titulo-sub_titulo {
+    align-self: stretch;
+    text-align: center;
+
+    color: var(--azul);
+
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem;
+    letter-spacing: -0.045rem;
+}
+
+.form_container_content_titulo-sub_subtitulo {
+    align-self: stretch;
+    text-align: center;
+
+    color: var(--gray-500, #667085);
+
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.form_container_content_email-captura {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.form_container_content_email-captura_email {
+    display: flex;
+    width: 22.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+
+    color: var(--cinza-medio);
+}
+
+.form_container_content_email-captura_email input {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    background: var(#FFF);
+
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.form_container_content_email-captura_btn {
+    display: flex;
+    align-items: flex-start;
+
+    border-radius: 0.5rem;
+}
+
+.form_container_content_email-captura_btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--vermelho-escuro);
+    background: var(--vermelho-escuro);
+
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: var(--base-white, #FFF);
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+footer {
+    color: var(--gray-400, #98A2B3);
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
