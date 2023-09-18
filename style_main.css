@@ -142,6 +142,7 @@
 .vagas_talentos_container_content h3 {
     align-self: stretch;
     text-align: center;
+    
     color: var(--azul);
     font-size: 2.25rem;
     font-weight: 600;
@@ -152,6 +153,7 @@
 .vagas_talentos_container_content p {
     align-self: stretch;
     text-align: center;
+    
     color: var(--cinza-medio);
     font-size: 1.25rem;
     font-weight: 400;
@@ -168,7 +170,6 @@
 h4 {
     color: var(--azul);
 
-    font-family: Inter;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
@@ -209,8 +210,8 @@ h4 {
     align-self: stretch;
 
     border-radius: 1rem;
-    border: 1px solid var(--gray-200, #EAECF0);
-    background: var(--base-white, #FFF);
+    border: 1px solid#EAECF0;
+    background: var(--branco);
 }
 
 .vagas_vagasAbertas_container_content_item_post_content {
@@ -368,7 +369,7 @@ h4 {
     gap: 2rem;
     align-self: stretch;
 
-    background: var(#F9FAFB);
+    background:#F9FAFB;
 }
 
 .form_container {
@@ -413,7 +414,7 @@ h4 {
     align-self: stretch;
     text-align: center;
 
-    color: var(--gray-500, #667085);
+    color:#667085;
 
     font-size: 1.25rem;
     font-style: normal;
@@ -448,7 +449,7 @@ h4 {
 
     border-radius: 0.5rem;
     border: 1px solid #D0D5DD;
-    background: var(#FFF);
+    background: var(--branco);
 
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
@@ -472,7 +473,7 @@ h4 {
     background: var(--vermelho-escuro);
 
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-    color: var(--base-white, #FFF);
+    color: var(--branco);
 
     font-size: 1rem;
     font-style: normal;
@@ -481,7 +482,7 @@ h4 {
 }
 
 footer {
-    color: var(--gray-400, #98A2B3);
+    color:#98A2B3;
 
     font-size: 1rem;
     font-style: normal;
