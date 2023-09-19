@@ -6,6 +6,7 @@
     align-self: stretch;
     gap: 1.5rem;
     padding: 6rem 0;
+    width: 100%;
 }
 
 .sobre_nos span {
@@ -17,18 +18,34 @@
 
 .sobre_nos h1 {
     color: var(--azul-escuro);
+    padding: 0 15rem;
     font-size: 3rem;
     font-weight: 600;
     line-height: 3.75rem;
     letter-spacing: -0.06rem;
+    word-break: break-word;
+    text-align: justify;
 }
 
 .sobre_nos p {
     color: var(--cinza-escuro);
-    width: 49.5rem;
+    padding: 0 15rem;
+    /* max-width: 49.5rem; */
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.875rem;
+    word-break: break-word;
+    text-align: justify;
+}
+
+@media screen and (max-width: 735px) {
+    .sobre_nos h1 {
+        padding: 0 5rem;
+    }
+
+    .sobre_nos p {
+        padding: 0 5rem;
+    }
 }
 
 /* Seção Métricas */
