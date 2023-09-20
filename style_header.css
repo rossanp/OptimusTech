@@ -139,6 +139,11 @@ nav {
 }
 
 @media screen and (max-width: 800px) {
+
+    .logo_image {
+        display: none;
+    }
+
     .hidden {
         display: block;
     }
