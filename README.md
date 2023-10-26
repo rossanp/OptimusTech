@@ -15,6 +15,6 @@ O intuito do site é mostrar a página de uma empresa contendo suas vagas aberta
 Há um local para assinar Newslatter e um campo para depoimentos.
 
 <h2>Desenvolvimento</h2>
-Este projeto foi desenvolvido em <strong>HTML5</strong>, <strong>CSS6</strong> e <strong>JavaScript</strong>.
+Este projeto foi desenvolvido em <strong>HTML5</strong> e <strong>CSS6</strong>.
 
 ![index html](https://github.com/rossanp/OptimusTech/assets/53863541/6674f20e-cb3e-4a22-a26b-86917c38a0e9)
